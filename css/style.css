@@ -22,6 +22,7 @@ p,h1{
     max-width: 1180px;
     margin: 0 auto;
     width: 100%;
+    padding: 0 10px;
 }
 select{
     border: none;
@@ -109,12 +110,25 @@ select{
     background-color: #F7F8FA;
 }
 .row__nav-all{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 260px;
     background-color: #7AC751;
+}
+.row__nav-all::before{
+    margin-right: 24px;
+    margin-bottom: 5px;
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/menu\ 1.svg);
+    background-repeat: no-repeat;
 }
 .row__nav-container{
     display: flex;
@@ -134,11 +148,26 @@ select{
 .row__nav-item:first-child{
     margin-left: 0px;
 }
+.column__nav{
+    width: 260px;
+}
 .column__nav-list{
     height: 100%;
     width: 100%;
+    background-color: #F7F8FA;
 }
 .column__nav-item{
+    border-bottom: 2px solid #E3E3E3;
     width: 260px;
     height: 41px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+}
+.main__container{
+    display: flex;
+}
+.header__content{
+    padding-top: 11px;
+    padding-left: 11px;
 }
