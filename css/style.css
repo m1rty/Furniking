@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+}
+p,h1{
+    margin: 0;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+select{
+    border: none;
+    outline: none;
+}
+.header__top-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.lang__switcher{
+    border: none;
+    background-color: #7AC751;
+    color: white;
+    outline: none;
+    position: relative;
+}
+.authorization-wrap{
+    display: flex;
+}
+.separator{
+    display: block;
+    height: 19px;
+    width: 2.2px;
+    margin: 0 20px;
+}
+.header__top{
+    height: 50px;
+    background-color: #7AC751;
+    color: white;
+}
+.header__middle{
+    height: 92px;
+    display: flex;
+    align-items: center;
+}
+.header__middle-container{
+    display: flex;
+}
+.logo{
+    width: 260px;
+}
+.search{
+    border: 2px solid #7AC751;
+    width: 582px;
+    height: 46px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.search__input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.search__select-wrap{
+    height: 100%;
+    margin-right: 21px;
+    
+}
+.search__select{
+    height: 100%;
+    border-left: 2px solid #E3E3E3;
+    width: 120px;
+    padding-left: 10px;
+}
+.search__img-wrap{
+    width: 55px;
+    flex-shrink: 0;
+    background: #7AC751;
+    height: 100%;
+}
+.profile__menu{
+    width: 120px;
+    background: #7AC751;
+}
+.association{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row__nav{
+    height: 67px;
+    background-color: #F7F8FA;
+}
+.row__nav-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 260px;
+    background-color: #7AC751;
+}
+.row__nav-container{
+    display: flex;
+    height: 100%;
+}
+.row__nav-list{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 1180px;
+    height: 67px;
+    display: flex;
+}
+.row__nav-item{
+    margin-left: 65px;
+}
+.row__nav-item:first-child{
+    margin-left: 0px;
+}
+.column__nav-list{
+    height: 100%;
+    width: 100%;
+}
+.column__nav-item{
+    width: 260px;
+    height: 41px;
+}
