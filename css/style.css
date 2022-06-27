@@ -741,6 +741,14 @@ select{
     height: 100%;
     width: 161px;
 }
+.page__flipper-button::after{
+    content: '';
+    display: block;
+    background: url(/img/button-arrow.svg);
+    width: 14px;
+    height: 12px;
+    margin-left: 10px;
+}
 .page__flipper-counter {
     color: #757575;
 }
