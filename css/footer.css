@@ -19,11 +19,19 @@ footer{
 }
 .footer__about{
     width: 306px;
+    line-height: 32px;
+    flex-shrink: 0;
 }
 .footer__content-top .container{
     display: flex;
 }
 .footer__column{
+    flex-shrink: 0;
+    line-height: 40px;
     height: 200px;
-    width: min-content;
+    width: max-content;
+}
+.footer__column-title{
+    font-size: 18px;
+    font-weight: 500;
 }
