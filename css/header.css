@@ -202,8 +202,11 @@ select {
     padding-left: 28px;
     display: flex;
     align-items: center;
+    transition: 0.3s;
 }
-
+.column__nav-item:hover{
+    background-color: #dadada;
+}
 .main__container {
     display: flex;
 }
@@ -301,7 +304,13 @@ select {
     width: 24px;
     border-radius: 6px;
 }
-
+.nav__button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #7AC751;
+    color: white;
+}
 .header__baner-preview {
     display: flex;
     flex-direction: column;

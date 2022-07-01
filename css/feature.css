@@ -4,3 +4,22 @@
     display: flex;
     justify-content: space-between;
 }
+.feature__item{
+    display: flex;
+}
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 26;
+    margin-left: 16px;
+}
+.feature__title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #555555;
+}
+.feature__details{
+    font-size: 14px;
+    color: rgba(81, 81, 81,0.71);
+}

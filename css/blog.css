@@ -50,6 +50,9 @@
     overflow: hidden;
     border-radius: 10px;
 }
+.blog-link{
+    color: white;
+}
 .blog__name{
     margin-bottom: 20px;
     font-size: 39px;

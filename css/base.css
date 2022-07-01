@@ -8,7 +8,9 @@ body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
-
+.wrapper{
+    overflow: hidden;
+}
 ul,
 li {
     list-style: none;
