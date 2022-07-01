@@ -1,14 +1,24 @@
-let rate = document.querySelector('.trending__rating')
-let star = document.querySelector('.star')
-
-function main(){
-    if(document.rate.style.display  == "flex"){
-        document.star.style.display == "none"
-    }
-    else {
-        document.rate.style.backgroundColor == "blue"
-    }
-}
+const swiper = new Swiper('.review__list-wrap .swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
 
 
 
