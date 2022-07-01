@@ -30,3 +30,16 @@
 .sticker-discount {
     background-color: #FF6868;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo__text{
+    font-size: 24px;
+    color: #555555;
+    font-weight: 500;
+}
+.logo__img{
+    width: 32px;
+    height: 39px;
+}

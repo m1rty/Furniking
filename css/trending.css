@@ -25,17 +25,11 @@
 .trending-first-row .trending__item:last-child {
     margin-right: 0;
 }
-
-.trending__item {
-    height: 387px;
-    width: 270px;
-    grid-column: span 3;
-}
 .trending__list {
     display: grid;
     column-gap: 30px;
     row-gap: 45px;
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
 }
 
 .trending__item-type {
@@ -45,7 +39,11 @@
     color: rgba(117, 117, 117, 0.71);
 
 }
-
+.trending__preview{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .trending__img-wrap {
     position: relative;
     transition: 2s all;

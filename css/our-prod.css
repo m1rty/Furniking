@@ -1,14 +1,8 @@
-.our-products__item {
-    height: 387px;
-    width: 270px;
-    grid-column: span 3;
-}
-
 .our-products__list {
     display: grid;
     column-gap: 30px;
     row-gap: 45px;
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
 }
 
 .our-products__item-type {
@@ -25,7 +19,11 @@
     overflow: hidden;
     height: 287px;
 }
-
+.our-products__preview{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .our-products__item-name {
     margin-bottom: 15px;
     font-size: 20px;

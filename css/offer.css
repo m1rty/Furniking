@@ -6,7 +6,6 @@
 }
 
 .offer__item {
-    width: 485px;
     height: 247px;
     padding: 49px 24px;
 }
@@ -54,10 +53,11 @@
     padding: 49px 31px;
     background: url(/img/Mask\ Group.svg);
     height: 100%;
-    flex: 1 1 auto;
+    flex: 1 1 669px;
 }
 
 .offer__small-list {
+    flex: 1 1 485px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

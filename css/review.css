@@ -13,10 +13,12 @@
 .review__list{
     display: flex;
     height: 352px;
-    width: 816px;
     margin: 0 26px;
 }
-
+.swiper__button{
+    display: flex;
+    align-items: center;
+}
 .review__text{
     margin-bottom: 32px;
     margin-top: 32px;
